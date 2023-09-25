@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ra7i
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0076-tenant/ci10t-786-0076-app/devfile-sample-ra7i@sha256:1c0b2318243916ab2aa055eb97f66512b35e239a69878781f321bee31b10ff2f
+        name: my-nodejs
+        resources: {}
+status: {}
