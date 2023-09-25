@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ra7i
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0076-tenant/ci10t-786-0076-app/devfile-sample-ra7i@sha256:1c0b2318243916ab2aa055eb97f66512b35e239a69878781f321bee31b10ff2f
         name: my-nodejs
         ports:
         - containerPort: 3001
